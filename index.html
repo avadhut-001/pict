@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PICT</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Title -->
+    <div class="title">
+        <h4>Society for Computer Technology and Research's</h4>
+        <h2>INSTITUTE OF COMPUTER TECHNOLOGY</h2>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">PICT</a>
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active d-flex gap-2 align-items-center" href="#home">
+                        <i class="fa-solid fa-house"></i> Home
+                    </a>
+                </li>
+
+                <li class="nav-item ms-3">
+                    <a class="nav-link d-flex gap-2 align-items-center" href="statistics.html">
+                        <i class="fa-solid fa-chart-column"></i> Statistics
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <!-- Welcome -->
+    <section id="home" class="welcome-section">
+        <h1>Welcome to PICT</h1>
+        <p>Empowering students through excellence in education</p>
+    </section>
+
+    <!-- ================= ACHIEVEMENTS ================= -->
+    <section class="container my-5">
+        <h2 class="achievements-title mb-4">Our Achievements</h2>
+
+        <!-- ===== 2024 ===== -->
+        <h4 class="year-title">Topper 2024</h4>
+        <div class="slider">
+            <div class="slider-track">
+
+                <div class="card topper-card bg-success text-white" data-name="Rahul Patil" data-year="2024"
+                    data-dept="CSE" data-sgpa="9.85" data-rank="1" data-photo="https://via.placeholder.com/150"
+                    onclick="openPopup(this)">
+                    <div class="card-body">
+                        <h5>Rahul</h5>
+                        <p>SGPA: 9.85</p>
+                        <p>CSE</p>
+                    </div>
+                </div>
+
+                <div class="card topper-card bg-primary text-white" data-name="Amit Sharma" data-year="2024"
+                    data-dept="IT" data-sgpa="9.80" data-rank="2" data-photo="https://via.placeholder.com/150"
+                    onclick="openPopup(this)">
+                    <div class="card-body">
+                        <h5>Amit</h5>
+                        <p>SGPA: 9.80</p>
+                        <p>IT</p>
+                    </div>
+                </div>
+
+                <div class="card topper-card bg-warning" data-name="Neha Joshi" data-year="2024" data-dept="AI"
+                    data-sgpa="9.78" data-rank="3" data-photo="https://via.placeholder.com/150"
+                    onclick="openPopup(this)">
+                    <div class="card-body">
+                        <h5>Neha</h5>
+                        <p>SGPA: 9.78</p>
+                        <p>AI</p>
+                    </div>
+                </div>
+
+                <div class="card topper-card bg-danger text-white" data-name="Sneha Kulkarni" data-year="2024"
+                    data-dept="ENTC" data-sgpa="9.75" data-rank="4" data-photo="https://via.placeholder.com/150"
+                    onclick="openPopup(this)">
+                    <div class="card-body">
+                        <h5>Sneha</h5>
+                        <p>SGPA: 9.75</p>
+                        <p>ENTC</p>
+                    </div>
+                </div>
+
+                <div class="card topper-card bg-info text-white" data-name="Om Deshpande" data-year="2024"
+                    data-dept="CSE" data-sgpa="9.72" data-rank="5" data-photo="https://via.placeholder.com/150"
+                    onclick="openPopup(this)">
+                    <div class="card-body">
+                        <h5>Om</h5>
+                        <p>SGPA: 9.72</p>
+                        <p>CSE</p>
+                    </div>
+                </div>
+
+                <div class="card topper-card bg-secondary text-white" data-name="Karan Jadhav" data-year="2024"
+                    data-dept="IT" data-sgpa="9.70" data-rank="6" data-photo="https://via.placeholder.com/150"
+                    onclick="openPopup(this)">
+                    <div class="card-body">
+                        <h5>Karan</h5>
+                        <p>SGPA: 9.70</p>
+                        <p>IT</p>
+                    </div>
+                </div>
+
+                <div class="card topper-card bg-success text-white" data-name="Riya Patole" data-year="2024"
+                    data-dept="AI" data-sgpa="9.68" data-rank="7" data-photo="https://via.placeholder.com/150"
+                    onclick="openPopup(this)">
+                    <div class="card-body">
+                        <h5>Riya</h5>
+                        <p>SGPA: 9.68</p>
+                        <p>AI</p>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+        <!-- ===== 2023 ===== -->
+        <h4 class="year-title mt-5">Topper 2023</h4>
+        <div class="slider">
+            <div class="slider-track">
+
+                <div class="card topper-card bg-warning" data-name="Priya Deshmukh" data-year="2023" data-dept="CSE"
+                    data-sgpa="9.78" data-rank="1" data-photo="https://via.placeholder.com/150"
+                    onclick="openPopup(this)">
+                    <div class="card-body">
+                        <h5>Priya</h5>
+                        <p>SGPA: 9.78</p>
+                        <p>CSE</p>
+                    </div>
+                </div>
+
+                <div class="card topper-card bg-info text-white" data-name="Aditya Kulkarni" data-year="2023"
+                    data-dept="IT" data-sgpa="9.74" data-rank="2" data-photo="https://via.placeholder.com/150"
+                    onclick="openPopup(this)">
+                    <div class="card-body">
+                        <h5>Aditya</h5>
+                        <p>SGPA: 9.74</p>
+                        <p>IT</p>
+                    </div>
+                </div>
+
+                <div class="card topper-card bg-success text-white" data-name="Kunal Patil" data-year="2023"
+                    data-dept="AI" data-sgpa="9.70" data-rank="3" data-photo="https://via.placeholder.com/150"
+                    onclick="openPopup(this)">
+                    <div class="card-body">
+                        <h5>Kunal</h5>
+                        <p>SGPA: 9.70</p>
+                        <p>AI</p>
+                    </div>
+                </div>
+
+                <div class="card topper-card bg-danger text-white" data-name="Riya Shah" data-year="2023"
+                    data-dept="ENTC" data-sgpa="9.65" data-rank="4" data-photo="https://via.placeholder.com/150"
+                    onclick="openPopup(this)">
+                    <div class="card-body">
+                        <h5>Riya</h5>
+                        <p>SGPA: 9.65</p>
+                        <p>ENTC</p>
+                    </div>
+                </div>
+
+                <div class="card topper-card bg-primary text-white" data-name="Yash More" data-year="2023"
+                    data-dept="CSE" data-sgpa="9.62" data-rank="5" data-photo="https://via.placeholder.com/150"
+                    onclick="openPopup(this)">
+                    <div class="card-body">
+                        <h5>Yash</h5>
+                        <p>SGPA: 9.62</p>
+                        <p>CSE</p>
+                    </div>
+                </div>
+
+                <div class="card topper-card bg-secondary text-white" data-name="Snehal Joshi" data-year="2023"
+                    data-dept="IT" data-sgpa="9.60" data-rank="6" data-photo="https://via.placeholder.com/150"
+                    onclick="openPopup(this)">
+                    <div class="card-body">
+                        <h5>Snehal</h5>
+                        <p>SGPA: 9.60</p>
+                        <p>IT</p>
+                    </div>
+                </div>
+
+                <div class="card topper-card bg-warning" data-name="Akash Kulkarni" data-year="2023" data-dept="AI"
+                    data-sgpa="9.58" data-rank="7" data-photo="https://via.placeholder.com/150"
+                    onclick="openPopup(this)">
+                    <div class="card-body">
+                        <h5>Akash</h5>
+                        <p>SGPA: 9.58</p>
+                        <p>AI</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- ===== 2022 ===== -->
+        <h4 class="year-title mt-5">Topper 2022</h4>
+        <div class="slider">
+            <div class="slider-track">
+
+                <div class="card topper-card bg-danger text-white" data-name="Aakash Verma" data-year="2022"
+                    data-dept="CSE" data-sgpa="9.70" data-rank="1" data-photo="https://via.placeholder.com/150"
+                    onclick="openPopup(this)">
+                    <div class="card-body">
+                        <h5>Aakash</h5>
+                        <p>SGPA: 9.70</p>
+                        <p>CSE</p>
+                    </div>
+                </div>
+
+                <div class="card topper-card bg-secondary text-white" data-name="Pooja Mehta" data-year="2022"
+                    data-dept="IT" data-sgpa="9.65" data-rank="2" data-photo="https://via.placeholder.com/150"
+                    onclick="openPopup(this)">
+                    <div class="card-body">
+                        <h5>Pooja</h5>
+                        <p>SGPA: 9.65</p>
+                        <p>IT</p>
+                    </div>
+                </div>
+
+                <div class="card topper-card bg-success text-white" data-name="Rohit Singh" data-year="2022"
+                    data-dept="AI" data-sgpa="9.62" data-rank="3" data-photo="https://via.placeholder.com/150"
+                    onclick="openPopup(this)">
+                    <div class="card-body">
+                        <h5>Rohit</h5>
+                        <p>SGPA: 9.62</p>
+                        <p>AI</p>
+                    </div>
+                </div>
+
+                <div class="card topper-card bg-info text-white" data-name="Simran Kaur" data-year="2022"
+                    data-dept="ENTC" data-sgpa="9.60" data-rank="4" data-photo="https://via.placeholder.com/150"
+                    onclick="openPopup(this)">
+                    <div class="card-body">
+                        <h5>Simran</h5>
+                        <p>SGPA: 9.60</p>
+                        <p>ENTC</p>
+                    </div>
+                </div>
+
+                <div class="card topper-card bg-primary text-white" data-name="Nikhil Patil" data-year="2022"
+                    data-dept="CSE" data-sgpa="9.58" data-rank="5" data-photo="https://via.placeholder.com/150"
+                    onclick="openPopup(this)">
+                    <div class="card-body">
+                        <h5>Nikhil</h5>
+                        <p>SGPA: 9.58</p>
+                        <p>CSE</p>
+                    </div>
+                </div>
+
+                <div class="card topper-card bg-warning" data-name="Sneha Kulkarni" data-year="2022" data-dept="IT"
+                    data-sgpa="9.55" data-rank="6" data-photo="https://via.placeholder.com/150"
+                    onclick="openPopup(this)">
+                    <div class="card-body">
+                        <h5>Sneha</h5>
+                        <p>SGPA: 9.55</p>
+                        <p>IT</p>
+                    </div>
+                </div>
+
+                <div class="card topper-card bg-danger text-white" data-name="Saurabh More" data-year="2022"
+                    data-dept="AI" data-sgpa="9.52" data-rank="7" data-photo="https://via.placeholder.com/150"
+                    onclick="openPopup(this)">
+                    <div class="card-body">
+                        <h5>Saurabh</h5>
+                        <p>SGPA: 9.52</p>
+                        <p>AI</p>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- ================= MODAL ================= -->
+    <div class="modal fade" id="studentModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content bg-dark text-white rounded-4">
+
+                <div class="modal-header border-0">
+                    <h5 class="modal-title">Student Details</h5>
+                    <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body text-center">
+                    <img id="studentPhoto" class="rounded-circle mb-3" width="120" height="120">
+                    <h4 id="studentName"></h4>
+                    <p><strong>Year:</strong> <span id="studentYear"></span></p>
+                    <p><strong>Department:</strong> <span id="studentDept"></span></p>
+                    <p><strong>SGPA:</strong> <span id="studentSGPA"></span></p>
+                    <p><strong>Rank:</strong> <span id="studentRank"></span></p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Popup Script -->
+    <script>
+        function openPopup(card) {
+            document.getElementById("studentName").innerText = card.dataset.name;
+            document.getElementById("studentYear").innerText = card.dataset.year;
+            document.getElementById("studentDept").innerText = card.dataset.dept;
+            document.getElementById("studentSGPA").innerText = card.dataset.sgpa;
+            document.getElementById("studentRank").innerText = card.dataset.rank;
+            document.getElementById("studentPhoto").src = card.dataset.photo;
+
+            new bootstrap.Modal(document.getElementById("studentModal")).show();
+        }
+    </script>
+
+</body>
+
+</html>
